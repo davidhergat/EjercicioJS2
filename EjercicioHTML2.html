@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Ejercicio HTML 2</title>
+	<link rel="stylesheet" type="text/css" href="EjercicioHTML2.css">
+
+</head>
+<body>
+	<script type="text/javascript" language="javascript" src="javascript.js"></script> 
+	<h1>Curso Serbatic</h1>
+	<h2>Formulario de registro</h2>
+
+	<form id="formulario">
+	
+	 <fieldset>
+		<legend>DATOS PERSONALES</legend>
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre" name="nombre">
+  
+		<label for="dni">DNI</label>
+		<input type="text" id="dniNum" name="dniNum">
+		<input type="text" id="dniLetra" name="dniLetra"><br>
+		
+		<label for="apellido1">Primer Apellido</label>
+		<input type="text" id="apellido1" name="apellido1"><br>
+	  
+		<label for="apellido2">Segundo Apellido</label>
+		<input type="text" id="apellido2" name="apellido2"><br>
+	  
+		<label for="">Fecha de nacimiento</label>
+		<select id="dia" name="dia">
+			<option>01</option>
+			<option>02</option>
+			<option>03</option>
+		</select>
+		<select id="mes" name="mes">
+			<option>Enero</option>
+			<option>Febrero</option>
+			<option>Marzo</option>
+		</select>
+		<select id="yeard" name="yeard">
+			<option>2020</option>
+			<option>2021</option>
+			<option>2022</option>
+		</select>
+		
+	 </fieldset>
+	 
+	 <fieldset>
+		<legend>DOMICILIO</legend>
+		<label for="pais">País</label>
+		<select id="pais" name="pais">
+			<option>pais1</option>
+			<option>pais2</option>
+			<option>pais3</option>
+		</select><br>
+		
+		<label for="direccion">Dirección</label>
+		<input type="text" id="direccion" name="direccion">
+		
+		<label for="codpostal">Código postal</label>
+		<input type="text" id="codpostal" name="codpostal"><br>
+		
+		<label for="localidad">Localidad</label>
+		<input type="text" id="localidad" name="localidad">
+		
+		<label for="provincia">Provincia</label>
+		<select id="provincia" name="provincia">
+			<option>p1</option>
+			<option>p2</option>
+			<option>p3</option>
+		</select><br>
+	 </fieldset>
+	 
+	 	 <fieldset>
+	  <legend>DATOS PERSONALES</legend>
+	  <label for="telefono">Telefono</label>
+	  <input type="text" id="telefono" name="telefono"><br>
+	  
+	  <label for="movil">Móvil</label>
+	  <input type="text" id="movil" name="movil"><br>
+	  
+	  <label for="correo">e-mail</label>
+	  <input type="text" id="correo" name="correo" ><br>
+	 </fieldset>
+	 
+	 <div id="Condiciones">
+	 
+		<input type="checkbox" id="cboxCondiciones" value="condicionesAceptadas">
+		Acepto el acuerdo de servicios, la declaración de privacidad y la declaracion de uso de cookies
+		
+	 </div>
+	 
+	 <div id="GrupoBotones">
+		<input type="submit" value="Registrar"">
+		<input type="reset" value="Limpiar">
+	 </div>
+	 
+	</form>
+
+</body>
+</html>
